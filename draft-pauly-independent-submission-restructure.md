@@ -19,11 +19,11 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Proposal to Restructure the Independent Submission Stream"
+abbrev: "IS Restructure"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-pauly-independent-submission-restructure-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
@@ -32,9 +32,8 @@ v: 3
 area: AREA
 workgroup: WG Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - ISE
+ - RFC
 venue:
   group: WG
   type: Working Group
@@ -45,15 +44,12 @@ venue:
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Tommy Pauly
+    email: tpauly.ietf@gmail.com
 
 normative:
 
 informative:
-
-...
 
 --- abstract
 

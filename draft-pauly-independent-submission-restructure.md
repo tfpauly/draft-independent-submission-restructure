@@ -85,7 +85,7 @@ could potentially overlap with IETF work; and,
 - broader informational documents that express opinions, architectural commentary,
 humor, etc., which could potentially overlap with either IETF or IAB work.
 
-ISB members are appointed by both the IESG and IAB, and the ISB requests conflicts
+ISB members are appointed by both the IESG and IAB, and the ISB requests conflict
 reviews from both the IESG and IAB when appropriate. This shares responsibility
 for review of the Independent Submission stream more broadly. This is not intended
 to reduce the independence of the stream in any way, but instead improve communication

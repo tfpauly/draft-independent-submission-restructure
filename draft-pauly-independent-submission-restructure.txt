@@ -129,7 +129,7 @@ Table of Contents
       overlap with either IETF or IAB work.
 
    ISB members are appointed by both the IESG and IAB, and the ISB
-   requests conflicts reviews from both the IESG and IAB when
+   requests conflict reviews from both the IESG and IAB when
    appropriate.  This shares responsibility for review of the
    Independent Submission stream more broadly.  This is not intended to
    reduce the independence of the stream in any way, but instead improve

@@ -58,7 +58,7 @@ stream {{?RFC8730}}. This proposal would obsolete {{?RFC8730}} if approved.
 
 ## Motivation and Background
 
-The structure of the ISB is indended to make it easier to find and appoint willing
+The structure of the ISB is intended to make it easier to find and appoint willing
 volunteers. By sharing the work of shepherding documents on the Independent Submission stream,
 each member of the ISB will have lesser responsibilities (time commitments, etc) as
 compared to a single ISE.

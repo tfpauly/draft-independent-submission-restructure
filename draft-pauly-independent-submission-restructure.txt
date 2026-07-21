@@ -94,7 +94,7 @@ Table of Contents
 
 1.1.  Motivation and Background
 
-   The structure of the ISB is indended to make it easier to find and
+   The structure of the ISB is intended to make it easier to find and
    appoint willing volunteers.  By sharing the work of shepherding
    documents on the Independent Submission stream, each member of the
    ISB will have lesser responsibilities (time commitments, etc) as

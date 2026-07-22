@@ -1,8 +1,8 @@
 <!-- regenerate: on (set to off if you edit this file) -->
 
-# Proposal to Restructure the Independent Submission Stream
+# Independent Submission Board Model
 
-This is the working area for the individual Internet-Draft, "Proposal to Restructure the Independent Submission Stream".
+This is the working area for the individual Internet-Draft, "Independent Submission Board Model".
 
 * [Editor's Copy](https://tfpauly.github.io/draft-independent-submission-restructure/#go.draft-pauly-independent-submission-restructure.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-pauly-independent-submission-restructure)

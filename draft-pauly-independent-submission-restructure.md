@@ -35,10 +35,10 @@ informative:
 
 The Independent Submission stream is one of the stream producers that create draft RFCs.
 This document proposes the creation of the Independent Submission Board (ISB),
-a small board appointed both by the IAB and IESG, that acts as the stream approver.
-The ISB responsible for activities within the Independent Submission stream,
-working with draft editors and reviewers, and interacts with the RFC Production Center
-and Publisher, and the RFC Series Editor (RSE).
+a small board appointed by both the IAB and IESG, that acts as the stream approver.
+The ISB is responsible for activities within the Independent Submission stream,
+works with draft editors and reviewers, and interacts with the RFC Production Center
+and Publisher and the RFC Series Editor (RSE).
 
 If approved, this proposal would obsolete RFC 8730, which defines a single
 Independent Submission Editor.
@@ -60,7 +60,7 @@ stream {{?RFC8730}}. This proposal would obsolete {{?RFC8730}} if approved.
 
 The structure of the ISB is intended to make it easier to find and appoint willing
 volunteers. By sharing the work of shepherding documents on the Independent Submission stream,
-each member of the ISB will have lesser responsibilities (time commitments, etc) as
+each member of the ISB will have lesser responsibilities (time commitments, etc.) as
 compared to a single ISE.
 
 Additionally, having an ISB composed of multiple members with staggered terms allows
@@ -69,7 +69,7 @@ institutional knowledge and smooth processing of documents on the stream.
 
 The ISB approves documents with a public, ballot-based record. This provides
 transparency to the interested communities (both the IETF community and the broader
-community of contributors to the Independent Submissions stream) about document
+community of contributors to the Independent Submission stream) about document
 processing and approval rationale. The decision to approve or not also does not
 depend on a single individual.
 
@@ -81,7 +81,7 @@ IESG {{!RFC5742}}.
 RFCs published on the Independent Submission stream can be broadly grouped into:
 
 - technical specifications that define protocols, register codepoints, etc., which
-could potentially overlap with IETF work; and,
+could potentially overlap with IETF work; and
 - broader informational documents that express opinions, architectural commentary,
 humor, etc., which could potentially overlap with either IETF or IAB work.
 
@@ -125,11 +125,11 @@ Members of the ISB share the following responsibilities:
 - Reviewing, approving, and processing Independent Submissions. For
 each document on the stream, the ISB selects one of its members
 as the responsible ISB member to shepherd the document. The
-respondible ISB member solicits reviews and helps coordinate
+responsible ISB member solicits reviews and helps coordinate
 conflict reviews.
-- Requesting conflict reivews from the IESG and IAB. All Independent
+- Requesting conflict reviews from the IESG and IAB. All Independent
 Submission documents need to run conflict reviews with the IESG, as
-described in {{RFC5742}}. For all documents that the ISB determines
+described in {{!RFC5742}}. For all documents that the ISB determines
 to be relevant, it should also request conflict reviews from the IAB.
 - Approving documents for publication on the Independent Submission stream.
 Approval is handled similarly to IESG and IRSG balloting on documents,
@@ -153,11 +153,13 @@ to discuss, process, and approve documents on the stream.
 ## Appointments and Terms {#appointment}
 
 Of the four ISB members, two are appointed by the IAB, and two are appointed
-by the IESG (see {{appointment}}). The appointing bodies are expected
+by the IESG (see {{appointment}}). The appointing bodies are expected to
+appoint members based on the qualifications listed above, after calling
+for community input.
 
 Each appointment has a three-year term, which can be renewed up to a total
 of three consecutive terms. Terms are staggered such that no more than two
-appointment renew in the same year.
+appointments renew in the same year.
 
 For the creation of the ISB, the lengths of the initial appointments will
 be set up to start staggered renewal. Specifically, there will be a one-year

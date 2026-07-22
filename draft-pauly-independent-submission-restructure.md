@@ -93,33 +93,77 @@ and awareness across the streams where potential overlaps might exist.
 
 # Independent Submission Board
 
-Four members, two appointed by IAB, two appointed by IESG.
+The Independent Submission Board (ISB) is composed of four members,
+appointed by both the IAB and IESG (see {{appointment}} for details).
+
+The ISB collectively is responsible for processing and approving
+documents on the Independent Submission stream.
+
+## Qualifications of Appointees
+
+Appointees to the ISB are expected to have the following qualifications:
+
+1. Technical competence, i.e., broad technical experience and perspective
+across a wide range of Internet technologies and applications, and also
+the ability to work effectively with portions of that spectrum in which
+they have no personal expertise.
+1. Thorough familiarity with the RFC series.
+1. An ability to define and constitute advisory and document review
+arrangements.
+1. Good standing in the technical community, in and beyond the IETF.
+1. Demonstrated editorial skills, good command of the English language,
+and demonstrated history of being able to work effectively with technical
+documents and materials created by others.
+1. The ability to work effectively in a multi-actor environment with
+divided authority and responsibility similar to that described in {{!RFC6635}}.
 
 ## Responsibilities
 
-- Individuals on the ISB shepherd/are responsible for the documents
-- May solicit reviews and run a team of people to help with reviews
-- Run conflict reviews. All documents run conflict reviews with IESG {{RFC5742}}; ISB chooses which documents to run as conflict review with IAB.
-- Approve documents, modelled on IESG document balloting. No more than one ABSTAIN/DISCUSS. Ballot comments are public.
-- Select one member (or someone else) to serve on RSAB {{!RFC9920}}
-
-- ISB determines its own meeting schedule for processing and approving documents.
+Members of the ISB share the following responsibilities:
 
 - Maintaining technical quality of the Independent Submission stream.
-- Reviewing, approving, and processing Independent Submissions.
-- Forwarding draft RFCs in the Independent Submission stream to the RFC Production Center.
+- Reviewing, approving, and processing Independent Submissions. For
+each document on the stream, the ISB selects one of its members
+as the responsible ISB member to shepherd the document. The
+respondible ISB member solicits reviews and helps coordinate
+conflict reviews.
+- Requesting conflict reivews from the IESG and IAB. All Independent
+Submission documents need to run conflict reviews with the IESG, as
+described in {{RFC5742}}. For all documents that the ISB determines
+to be relevant, it should also request conflict reviews from the IAB.
+- Approving documents for publication on the Independent Submission stream.
+Approval is handled similarly to IESG and IRSG balloting on documents,
+where each ISB member indicates approval, no objection, or an abstain/discuss
+opinion. In order to be approved, documents require one approval
+and no more than one abstain/discuss opinion. Ballots and associated
+comments are publicly available.
+- Forwarding approved draft RFCs in the Independent Submission stream
+to the RFC Production Center.
+- Selecting the RSAB representative {{!RFC9920}} for the Independent
+Submission stream, which will likely be an ISB member, but can also
+be another appointee.
 - Reviewing and approving RFC errata for Independent Submissions.
 - Coordinating work and conforming to general RFC Series policies as specified by the IAB and RSE.
 - Providing statistics and documentation as requested by the RSE and/or LLC.
 
-## Appointments and Terms
 
-- 2 appointed by IESG
-- 2 appointed by IAB
-- Should be generally knowledgable, but expected to be able to represent and help drive documents that would otherwise overlap with IETF work or IAB work
+The ISB sets it own schedule for meetings and teleconferences, used
+to discuss, process, and approve documents on the stream.
 
-- 3 year terms. Can be reappointed up to 3 terms.
-- Staggered start to terms (1 - IAB, 2 - IESG, 3 - IAB, 3 - IESG). Terms continue to cycle.
+## Appointments and Terms {#appointment}
+
+Of the four ISB members, two are appointed by the IAB, and two are appointed
+by the IESG (see {{appointment}}). The appointing bodies are expected 
+
+Each appointment has a three-year term, which can be renewed up to a total
+of three consecutive terms. Terms are staggered such that no more than two
+appointment renew in the same year.
+
+For the creation of the ISB, the lengths of the initial appointments will
+be set up to start staggered renewal. Specifically, there will be a one-year
+term appointed by the IAB, a two-year term appointed by the IESG, a
+three-year term appointed by the IAB, and a three-year term appointed by
+the IESG.
 
 # Security Considerations
 

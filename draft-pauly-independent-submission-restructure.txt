@@ -15,11 +15,11 @@ Abstract
 
    The Independent Submission stream is one of the stream producers that
    create draft RFCs.  This document proposes the creation of the
-   Independent Submission Board (ISB), a small board appointed both by
-   the IAB and IESG, that acts as the stream approver.  The ISB
+   Independent Submission Board (ISB), a small board appointed by both
+   the IAB and IESG, that acts as the stream approver.  The ISB is
    responsible for activities within the Independent Submission stream,
-   working with draft editors and reviewers, and interacts with the RFC
-   Production Center and Publisher, and the RFC Series Editor (RSE).
+   works with draft editors and reviewers, and interacts with the RFC
+   Production Center and Publisher and the RFC Series Editor (RSE).
 
    If approved, this proposal would obsolete RFC 8730, which defines a
    single Independent Submission Editor.
@@ -98,7 +98,7 @@ Table of Contents
    The structure of the ISB is intended to make it easier to find and
    appoint willing volunteers.  By sharing the work of shepherding
    documents on the Independent Submission stream, each member of the
-   ISB will have lesser responsibilities (time commitments, etc) as
+   ISB will have lesser responsibilities (time commitments, etc.) as
    compared to a single ISE.
 
    Additionally, having an ISB composed of multiple members with
@@ -109,9 +109,9 @@ Table of Contents
    The ISB approves documents with a public, ballot-based record.  This
    provides transparency to the interested communities (both the IETF
    community and the broader community of contributors to the
-   Independent Submissions stream) about document processing and
-   approval rationale.  The decision to approve or not also does not
-   depend on a single individual.
+   Independent Submission stream) about document processing and approval
+   rationale.  The decision to approve or not also does not depend on a
+   single individual.
 
    The appointment structure and conflict review process for the ISB
    intentionally involves both the IESG and the IAB.  The ISE model
@@ -123,7 +123,7 @@ Table of Contents
 
    *  technical specifications that define protocols, register
       codepoints, etc., which could potentially overlap with IETF work;
-      and,
+      and
 
    *  broader informational documents that express opinions,
       architectural commentary, humor, etc., which could potentially
@@ -182,10 +182,10 @@ Table of Contents
    *  Reviewing, approving, and processing Independent Submissions.  For
       each document on the stream, the ISB selects one of its members as
       the responsible ISB member to shepherd the document.  The
-      respondible ISB member solicits reviews and helps coordinate
+      responsible ISB member solicits reviews and helps coordinate
       conflict reviews.
 
-   *  Requesting conflict reivews from the IESG and IAB.  All
+   *  Requesting conflict reviews from the IESG and IAB.  All
       Independent Submission documents need to run conflict reviews with
       the IESG, as described in [RFC5742].  For all documents that the
       ISB determines to be relevant, it should also request conflict
@@ -195,9 +195,10 @@ Table of Contents
       stream.  Approval is handled similarly to IESG and IRSG balloting
       on documents, where each ISB member indicates approval, no
       objection, or an abstain/discuss opinion.  In order to be
-      approved, documents require one approval and no more than one
-      abstain/discuss opinion.  Ballots and associated comments are
-      publicly available.
+      approved, documents require at least three approval or no
+      objection opinions (one of which must be an approval) and no more
+      than one abstain/discuss opinion.  Ballots and associated comments
+      are publicly available.
 
    *  Forwarding approved draft RFCs in the Independent Submission
       stream to the RFC Production Center.
@@ -221,11 +222,12 @@ Table of Contents
 
    Of the four ISB members, two are appointed by the IAB, and two are
    appointed by the IESG (see Section 2.3).  The appointing bodies are
-   expected
+   expected to appoint members based on the qualifications listed above,
+   after calling for community input.
 
    Each appointment has a three-year term, which can be renewed up to a
    total of three consecutive terms.  Terms are staggered such that no
-   more than two appointment renew in the same year.
+   more than two appointments renew in the same year.
 
    For the creation of the ISB, the lengths of the initial appointments
    will be set up to start staggered renewal.  Specifically, there will

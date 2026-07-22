@@ -38,7 +38,7 @@ This document proposes the creation of the Independent Submission Board (ISB),
 a small board appointed by both the IAB and IESG, that acts as the stream approver.
 The ISB is responsible for activities within the Independent Submission stream,
 works with draft editors and reviewers, and interacts with the RFC Production Center
-and Publisher and the RFC Series Editor (RSE).
+and Publisher, and the RFC Series Editor (RSE).
 
 If approved, this proposal would obsolete RFC 8730, which defines a single
 Independent Submission Editor.
@@ -134,7 +134,7 @@ to be relevant, it should also request conflict reviews from the IAB.
 - Approving documents for publication on the Independent Submission stream.
 Approval is handled similarly to IESG and IRSG balloting on documents,
 where each ISB member indicates approval, no objection, or an abstain/discuss
-opinion. In order to be approved, documents require at least three approval
+opinion. In order to be approved, documents require at least three approvals
 or no objection opinions (one of which must be an approval)
 and no more than one abstain/discuss opinion. Ballots and associated
 comments are publicly available.
@@ -147,14 +147,13 @@ be another appointee.
 - Coordinating work and conforming to general RFC Series policies as specified by the IAB and RSE.
 - Providing statistics and documentation as requested by the RSE and/or LLC.
 
-
 The ISB sets it own schedule for meetings and teleconferences, used
 to discuss, process, and approve documents on the stream.
 
 ## Appointments and Terms {#appointment}
 
 Of the four ISB members, two are appointed by the IAB, and two are appointed
-by the IESG (see {{appointment}}). The appointing bodies are expected to
+by the IESG. The appointing bodies are expected to
 appoint members based on the qualifications listed above, after calling
 for community input.
 

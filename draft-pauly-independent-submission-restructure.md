@@ -134,7 +134,8 @@ to be relevant, it should also request conflict reviews from the IAB.
 - Approving documents for publication on the Independent Submission stream.
 Approval is handled similarly to IESG and IRSG balloting on documents,
 where each ISB member indicates approval, no objection, or an abstain/discuss
-opinion. In order to be approved, documents require one approval
+opinion. In order to be approved, documents require at least three approval
+or no objection opinions (one of which must be an approval)
 and no more than one abstain/discuss opinion. Ballots and associated
 comments are publicly available.
 - Forwarding approved draft RFCs in the Independent Submission stream

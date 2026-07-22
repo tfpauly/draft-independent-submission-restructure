@@ -153,7 +153,7 @@ to discuss, process, and approve documents on the stream.
 ## Appointments and Terms {#appointment}
 
 Of the four ISB members, two are appointed by the IAB, and two are appointed
-by the IESG (see {{appointment}}). The appointing bodies are expected 
+by the IESG (see {{appointment}}). The appointing bodies are expected
 
 Each appointment has a three-year term, which can be renewed up to a total
 of three consecutive terms. Terms are staggered such that no more than two

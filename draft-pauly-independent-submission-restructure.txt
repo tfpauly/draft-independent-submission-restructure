@@ -3,9 +3,9 @@
 
 
 Network Working Group                                           T. Pauly
-Internet-Draft                                              22 July 2026
+Internet-Draft                                              24 July 2026
 Intended status: Informational                                          
-Expires: 23 January 2027
+Expires: 25 January 2027
 
 
                    Independent Submission Board Model
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 January 2027.
+   This Internet-Draft will expire on 25 January 2027.
 
 Copyright Notice
 
@@ -130,7 +130,7 @@ Table of Contents
       overlap with either IETF or IAB work.
 
    ISB members are appointed by both the IESG and IAB, and the ISB
-   requests conflict reviews from both the IESG and IAB when
+   requests conflict reviews from the IESG, as well as the IAB when
    appropriate.  This shares responsibility for review of the
    Independent Submission stream more broadly.  This is not intended to
    reduce the independence of the stream in any way, but instead improve

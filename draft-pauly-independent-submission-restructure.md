@@ -58,8 +58,28 @@ stream {{?RFC8730}}. This proposal would obsolete {{?RFC8730}} if approved.
 
 ## Motivation and Background
 
+The model of a single ISE makes the Independent Submission stream unique amongst RFC streams
+in having a single person responsible for approvals of documents within an RFC stream.
+While the ISE can be supported by an Editorial Board for the purpose of advice
+and reviews, the ISE is directly responsible for the processing and approvals of all
+documents.
+
+Additionally, the scope of documents for the Independent Submission stream is
+quite open-ended, and the potential community of interested parties is very
+large (including the IETF community and other communities and parties outside
+the IETF community).
+
+The ISE model does not define a visible process or record for how decisions are made.
+When a single individual is responsible to an open-ended community for arbitrating
+decisions of what should be published, inevitably there are members of the community
+who will disagree with the decisions. In all other RFC streams, there are consensus-based
+processes that ensure that no single individual is entrusted with the decisions for
+publication. Placing this requirement on an individual is a burden to that individual
+as well as a potential source of conflict for the community.
+
 The structure of the ISB is intended to make it easier to find and appoint willing
-volunteers. By sharing the work of shepherding documents on the Independent Submission stream,
+volunteers who can share responsibilities and establish a process of consensus. By
+sharing the work of shepherding documents on the Independent Submission stream,
 each member of the ISB will have lesser responsibilities (time commitments, etc.) as
 compared to a single ISE.
 

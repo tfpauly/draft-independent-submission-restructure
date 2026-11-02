@@ -1,0 +1,301 @@
+
+
+
+
+Network Working Group                                           T. Pauly
+Internet-Draft                                           2 November 2026
+Intended status: Informational                                          
+Expires: 6 May 2027
+
+
+                   Independent Submission Board Model
+         draft-pauly-independent-submission-restructure-latest
+
+Abstract
+
+   The Independent Submission stream is one of the stream producers that
+   create draft RFCs.  This document proposes the creation of the
+   Independent Submission Board (ISB), a small board appointed by both
+   the IAB and IESG, that acts as the stream approver.  The ISB is
+   responsible for activities within the Independent Submission stream,
+   works with draft editors and reviewers, and interacts with the RFC
+   Production Center and Publisher, and the RFC Series Editor (RSE).
+
+   If approved, this proposal would obsolete RFC 8730, which defines a
+   single Independent Submission Editor.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://tfpauly.github.io/draft-independent-submission-restructure/
+   draft-pauly-independent-submission-restructure.html.  Status
+   information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-pauly-independent-submission-
+   restructure/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/tfpauly/draft-independent-submission-restructure.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 6 May 2027.
+
+Copyright Notice
+
+   Copyright (c) 2026 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.
+
+Table of Contents
+
+   1.  Introduction
+     1.1.  Motivation and Background
+   2.  Independent Submission Board
+     2.1.  Qualifications of Appointees
+     2.2.  Responsibilities
+     2.3.  Appointments and Terms
+   3.  Security Considerations
+   4.  IANA Considerations
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
+   Author's Address
+
+1.  Introduction
+
+   The RFC Editor Model [RFC8728] defines a set of streams that produce
+   draft RFCs, which are submitted for publication.  This document
+   proposes the management function for the Independent Submission
+   stream, specifically the role of Independent Submission Board (ISB).
+
+   The existing model for management of the Independent Submission
+   stream defines a single appointee, the Independent Submission Editor
+   (ISE) as the manager of the stream [RFC8730].  This proposal would
+   obsolete [RFC8730] if approved.
+
+1.1.  Motivation and Background
+
+   The model of a single ISE makes the Independent Submission stream
+   unique amongst RFC streams in having a single person responsible for
+   approvals of documents within an RFC stream.  While the ISE can be
+   supported by an Editorial Board for the purpose of advice and
+   reviews, the ISE is directly responsible for the processing and
+   approvals of all documents.
+
+   Additionally, the scope of documents for the Independent Submission
+   stream is quite open-ended, and the potential community of interested
+   parties is very large (including the IETF community and other
+   communities and parties outside the IETF community).
+
+   The ISE model does not define a visible process or record for how
+   decisions are made.  When a single individual is responsible to an
+   open-ended community for arbitrating decisions of what should be
+   published, inevitably there are members of the community who will
+   disagree with the decisions.  In all other RFC streams, there are
+   consensus-based processes that ensure that no single individual is
+   entrusted with the decisions for publication.  Placing this
+   requirement on an individual is a burden to that individual as well
+   as a potential source of conflict for the community.
+
+   The structure of the ISB is intended to make it easier to find and
+   appoint willing volunteers who can share responsibilities and
+   establish a process of consensus.  By sharing the work of shepherding
+   documents on the Independent Submission stream, each member of the
+   ISB will have lesser responsibilities (time commitments, etc.) as
+   compared to a single ISE.
+
+   Additionally, having an ISB composed of multiple members with
+   staggered terms allows for more continuity when appointees step down.
+   This improves both sharing of institutional knowledge and smooth
+   processing of documents on the stream.
+
+   The ISB approves documents with a public, ballot-based record.  This
+   provides transparency to the interested communities (both the IETF
+   community and the broader community of contributors to the
+   Independent Submission stream) about document processing and approval
+   rationale.  The decision to approve or not also does not depend on a
+   single individual.
+
+   The appointment structure and conflict review process for the ISB
+   intentionally involves both the IESG and the IAB.  The ISE model
+   involved an appointment of an individual by the IAB, but documents go
+   through conflict review only with the IESG [RFC5742].
+
+   RFCs published on the Independent Submission stream can be broadly
+   grouped into:
+
+   *  technical specifications that define protocols, register
+      codepoints, etc., which could potentially overlap with IETF work;
+      and
+
+   *  broader informational documents that express opinions,
+      architectural commentary, humor, etc., which could potentially
+      overlap with either IETF or IAB work.
+
+   ISB members are appointed by both the IESG and IAB, and the ISB
+   requests conflict reviews from the IESG, as well as the IAB when
+   appropriate.  This shares responsibility for review of the
+   Independent Submission stream more broadly.  This is not intended to
+   reduce the independence of the stream in any way, but instead improve
+   communication and awareness across the streams where potential
+   overlaps might exist.
+
+2.  Independent Submission Board
+
+   The Independent Submission Board (ISB) is composed of four members,
+   appointed by both the IAB and IESG (see Section 2.3 for details).
+
+   The ISB collectively is responsible for processing and approving
+   documents on the Independent Submission stream.
+
+2.1.  Qualifications of Appointees
+
+   Appointees to the ISB are expected to have the following
+   qualifications:
+
+   1.  Technical competence, i.e., broad technical experience and
+       perspective across a wide range of Internet technologies and
+       applications, and also the ability to work effectively with
+       portions of that spectrum in which they have no personal
+       expertise.
+
+   2.  Thorough familiarity with the RFC series.
+
+   3.  An ability to define and constitute advisory and document review
+       arrangements.
+
+   4.  Good standing in the technical community, in and beyond the IETF.
+
+   5.  Demonstrated editorial skills, good command of the English
+       language, and demonstrated history of being able to work
+       effectively with technical documents and materials created by
+       others.
+
+   6.  The ability to work effectively in a multi-actor environment with
+       divided authority and responsibility similar to that described in
+       [RFC6635].
+
+2.2.  Responsibilities
+
+   Members of the ISB share the following responsibilities:
+
+   *  Maintaining technical quality of the Independent Submission
+      stream.
+
+   *  Reviewing, approving, and processing Independent Submissions.  For
+      each document on the stream, the ISB selects one of its members as
+      the responsible ISB member to shepherd the document.  The
+      responsible ISB member solicits reviews and helps coordinate
+      conflict reviews.
+
+   *  Requesting conflict reviews from the IESG and IAB.  All
+      Independent Submission documents need to run conflict reviews with
+      the IESG, as described in [RFC5742].  For all documents that the
+      ISB determines to be relevant, it should also request conflict
+      reviews from the IAB.
+
+   *  Approving documents for publication on the Independent Submission
+      stream.  Approval is handled similarly to IESG and IRSG balloting
+      on documents, where each ISB member indicates approval, no
+      objection, or an abstain/discuss opinion.  In order to be
+      approved, documents require at least three approvals or no
+      objection opinions (one of which must be an approval) and no more
+      than one abstain/discuss opinion.  Ballots and associated comments
+      are publicly available.
+
+   *  Forwarding approved draft RFCs in the Independent Submission
+      stream to the RFC Production Center.
+
+   *  Selecting the RSAB representative [RFC9920] for the Independent
+      Submission stream, which will likely be an ISB member, but can
+      also be another appointee.
+
+   *  Reviewing and approving RFC errata for Independent Submissions.
+
+   *  Coordinating work and conforming to general RFC Series policies as
+      specified by the IAB and RSE.
+
+   *  Providing statistics and documentation as requested by the RSE
+      and/or LLC.
+
+   The ISB sets it own schedule for meetings and teleconferences, used
+   to discuss, process, and approve documents on the stream.
+
+2.3.  Appointments and Terms
+
+   Of the four ISB members, two are appointed by the IAB, and two are
+   appointed by the IESG.  The appointing bodies are expected to appoint
+   members based on the qualifications listed above, after calling for
+   community input.
+
+   Each appointment has a three-year term, which can be renewed up to a
+   total of three consecutive terms.  Terms are staggered such that no
+   more than two appointments renew in the same year.
+
+   For the creation of the ISB, the lengths of the initial appointments
+   will be set up to start staggered renewal.  Specifically, there will
+   be a one-year term appointed by the IAB, a two-year term appointed by
+   the IESG, a three-year term appointed by the IAB, and a three-year
+   term appointed by the IESG.
+
+3.  Security Considerations
+
+   This document has no specific security implications, however the same
+   security considerations as those in [RFC9920] apply.
+
+4.  IANA Considerations
+
+   This document has no IANA actions.
+
+5.  References
+
+5.1.  Normative References
+
+   [RFC5742]  Alvestrand, H. and R. Housley, "IESG Procedures for
+              Handling of Independent and IRTF Stream Submissions",
+              BCP 92, RFC 5742, DOI 10.17487/RFC5742, December 2009,
+              <https://www.rfc-editor.org/rfc/rfc5742>.
+
+   [RFC6635]  Kolkman, O., Ed., Halpern, J., Ed., and IAB, "RFC Editor
+              Model (Version 2)", RFC 6635, DOI 10.17487/RFC6635, June
+              2012, <https://www.rfc-editor.org/rfc/rfc6635>.
+
+   [RFC8728]  Kolkman, O., Ed., Halpern, J., Ed., and R. Hinden, Ed.,
+              "RFC Editor Model (Version 2)", RFC 8728,
+              DOI 10.17487/RFC8728, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8728>.
+
+   [RFC9920]  Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)",
+              RFC 9920, DOI 10.17487/RFC9920, February 2026,
+              <https://www.rfc-editor.org/rfc/rfc9920>.
+
+5.2.  Informative References
+
+   [RFC8730]  Brownlee, N., Ed. and R. Hinden, Ed., "Independent
+              Submission Editor Model", RFC 8730, DOI 10.17487/RFC8730,
+              February 2020, <https://www.rfc-editor.org/rfc/rfc8730>.
+
+Author's Address
+
+   Tommy Pauly
+   Email: tpauly.ietf@gmail.com

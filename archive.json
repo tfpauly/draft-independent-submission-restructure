@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-15T06:01:26.235108+00:00",
+  "timestamp": "2026-11-17T07:38:50.876306+00:00",
   "repo": "tfpauly/draft-independent-submission-restructure",
   "labels": [
     {
@@ -49,6 +49,23 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOTXPcWM8AAAABfirYYQ",
+      "title": "Relationship to other RFCs",
+      "url": "https://github.com/tfpauly/draft-independent-submission-restructure/issues/1",
+      "state": "OPEN",
+      "author": "paulehoffman",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Greetings again. The bit at the top of the front page seems wrong. Shouldn't it say that it updates 9920 and obsoletes 8730?",
+      "createdAt": "2026-11-16T00:38:50Z",
+      "updatedAt": "2026-11-16T00:38:50Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
